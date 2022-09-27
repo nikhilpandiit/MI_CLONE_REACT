@@ -1,0 +1,46 @@
+.Navbar {
+  z-index: 1000;
+  background-color: white;
+  padding: 1vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+}
+
+.navlink {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  margin: 1vmax;
+  font-weight: 500;
+  font-size: 1.1vmax;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navlink:hover {
+  color: rgb(247, 66, 0);
+}
+
+.logo {
+  background-color: orangered;
+  width: 58px;
+}
+
+.searchbox input {
+  position: relative;
+  left: 5vmax;
+  border: none;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+  font-size: 1.1vmax;
+  color: rgb(61, 61, 61);
+  outline: none;
+  font-weight: 100;
+}
+
+svg{
+fill: rgb(211, 199, 199);
+content: "\e92a";
+
+
+}
